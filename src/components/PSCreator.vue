@@ -1,6 +1,6 @@
 <template>
     <div class="mt-20">
-        <div :class="copclass" class="bg-white text-4xl flex-wrap absolute inset-0 transition-all duration-500 flex justify-center items-center">Copied To Text Clipboard</div>
+        <div :class="copclass" class="bg-white text-4xl flex-wrap absolute inset-0 transition-all duration-500 flex justify-center items-center">Copy</div>
         <div class="gap-10 flex justify-center items-center flex-col">
             <h1 class="text-white p-5 flex justify-between w-52">
             <pre>{{value}}</pre>
